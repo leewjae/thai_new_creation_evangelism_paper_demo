@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8944BD4E253687300019A7D7 /* thai_new_creation_evangelism_paper_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8944BD4D253687300019A7D7 /* thai_new_creation_evangelism_paper_demoApp.swift */; };
+		8944BD50253687300019A7D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8944BD4F253687300019A7D7 /* ContentView.swift */; };
+		8944BD52253687320019A7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8944BD51253687320019A7D7 /* Assets.xcassets */; };
+		8944BD55253687320019A7D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8944BD54253687320019A7D7 /* Preview Assets.xcassets */; };
+		8944BD60253687320019A7D7 /* thai_new_creation_evangelism_paper_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8944BD5F253687320019A7D7 /* thai_new_creation_evangelism_paper_demoTests.swift */; };
+		8944BD6B253687320019A7D7 /* thai_new_creation_evangelism_paper_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8944BD6A253687320019A7D7 /* thai_new_creation_evangelism_paper_demoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8944BD5C253687320019A7D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8944BD42253687300019A7D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8944BD49253687300019A7D7;
+			remoteInfo = thai_new_creation_evangelism_paper_demo;
+		};
+		8944BD67253687320019A7D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8944BD42253687300019A7D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8944BD49253687300019A7D7;
+			remoteInfo = thai_new_creation_evangelism_paper_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8944BD4A253687300019A7D7 /* thai_new_creation_evangelism_paper_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thai_new_creation_evangelism_paper_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8944BD4D253687300019A7D7 /* thai_new_creation_evangelism_paper_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thai_new_creation_evangelism_paper_demoApp.swift; sourceTree = "<group>"; };
+		8944BD4F253687300019A7D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8944BD51253687320019A7D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8944BD54253687320019A7D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8944BD56253687320019A7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8944BD5B253687320019A7D7 /* thai_new_creation_evangelism_paper_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thai_new_creation_evangelism_paper_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8944BD5F253687320019A7D7 /* thai_new_creation_evangelism_paper_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thai_new_creation_evangelism_paper_demoTests.swift; sourceTree = "<group>"; };
+		8944BD61253687320019A7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8944BD66253687320019A7D7 /* thai_new_creation_evangelism_paper_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thai_new_creation_evangelism_paper_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8944BD6A253687320019A7D7 /* thai_new_creation_evangelism_paper_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thai_new_creation_evangelism_paper_demoUITests.swift; sourceTree = "<group>"; };
+		8944BD6C253687320019A7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8944BD47253687300019A7D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8944BD58253687320019A7D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8944BD63253687320019A7D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8944BD41253687300019A7D7 = {
+			isa = PBXGroup;
+			children = (
+				8944BD4C253687300019A7D7 /* thai_new_creation_evangelism_paper_demo */,
+				8944BD5E253687320019A7D7 /* thai_new_creation_evangelism_paper_demoTests */,
+				8944BD69253687320019A7D7 /* thai_new_creation_evangelism_paper_demoUITests */,
+				8944BD4B253687300019A7D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8944BD4B253687300019A7D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8944BD4A253687300019A7D7 /* thai_new_creation_evangelism_paper_demo.app */,
+				8944BD5B253687320019A7D7 /* thai_new_creation_evangelism_paper_demoTests.xctest */,
+				8944BD66253687320019A7D7 /* thai_new_creation_evangelism_paper_demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8944BD4C253687300019A7D7 /* thai_new_creation_evangelism_paper_demo */ = {
+			isa = PBXGroup;
+			children = (
+				8944BD4D253687300019A7D7 /* thai_new_creation_evangelism_paper_demoApp.swift */,
+				8944BD4F253687300019A7D7 /* ContentView.swift */,
+				8944BD51253687320019A7D7 /* Assets.xcassets */,
+				8944BD56253687320019A7D7 /* Info.plist */,
+				8944BD53253687320019A7D7 /* Preview Content */,
+			);
+			path = thai_new_creation_evangelism_paper_demo;
+			sourceTree = "<group>";
+		};
+		8944BD53253687320019A7D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8944BD54253687320019A7D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8944BD5E253687320019A7D7 /* thai_new_creation_evangelism_paper_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8944BD5F253687320019A7D7 /* thai_new_creation_evangelism_paper_demoTests.swift */,
+				8944BD61253687320019A7D7 /* Info.plist */,
+			);
+			path = thai_new_creation_evangelism_paper_demoTests;
+			sourceTree = "<group>";
+		};
+		8944BD69253687320019A7D7 /* thai_new_creation_evangelism_paper_demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8944BD6A253687320019A7D7 /* thai_new_creation_evangelism_paper_demoUITests.swift */,
+				8944BD6C253687320019A7D7 /* Info.plist */,
+			);
+			path = thai_new_creation_evangelism_paper_demoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8944BD49253687300019A7D7 /* thai_new_creation_evangelism_paper_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8944BD6F253687320019A7D7 /* Build configuration list for PBXNativeTarget "thai_new_creation_evangelism_paper_demo" */;
+			buildPhases = (
+				8944BD46253687300019A7D7 /* Sources */,
+				8944BD47253687300019A7D7 /* Frameworks */,
+				8944BD48253687300019A7D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = thai_new_creation_evangelism_paper_demo;
+			productName = thai_new_creation_evangelism_paper_demo;
+			productReference = 8944BD4A253687300019A7D7 /* thai_new_creation_evangelism_paper_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8944BD5A253687320019A7D7 /* thai_new_creation_evangelism_paper_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8944BD72253687320019A7D7 /* Build configuration list for PBXNativeTarget "thai_new_creation_evangelism_paper_demoTests" */;
+			buildPhases = (
+				8944BD57253687320019A7D7 /* Sources */,
+				8944BD58253687320019A7D7 /* Frameworks */,
+				8944BD59253687320019A7D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8944BD5D253687320019A7D7 /* PBXTargetDependency */,
+			);
+			name = thai_new_creation_evangelism_paper_demoTests;
+			productName = thai_new_creation_evangelism_paper_demoTests;
+			productReference = 8944BD5B253687320019A7D7 /* thai_new_creation_evangelism_paper_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8944BD65253687320019A7D7 /* thai_new_creation_evangelism_paper_demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8944BD75253687320019A7D7 /* Build configuration list for PBXNativeTarget "thai_new_creation_evangelism_paper_demoUITests" */;
+			buildPhases = (
+				8944BD62253687320019A7D7 /* Sources */,
+				8944BD63253687320019A7D7 /* Frameworks */,
+				8944BD64253687320019A7D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8944BD68253687320019A7D7 /* PBXTargetDependency */,
+			);
+			name = thai_new_creation_evangelism_paper_demoUITests;
+			productName = thai_new_creation_evangelism_paper_demoUITests;
+			productReference = 8944BD66253687320019A7D7 /* thai_new_creation_evangelism_paper_demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8944BD42253687300019A7D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					8944BD49253687300019A7D7 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					8944BD5A253687320019A7D7 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 8944BD49253687300019A7D7;
+					};
+					8944BD65253687320019A7D7 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 8944BD49253687300019A7D7;
+					};
+				};
+			};
+			buildConfigurationList = 8944BD45253687300019A7D7 /* Build configuration list for PBXProject "thai_new_creation_evangelism_paper_demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8944BD41253687300019A7D7;
+			productRefGroup = 8944BD4B253687300019A7D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8944BD49253687300019A7D7 /* thai_new_creation_evangelism_paper_demo */,
+				8944BD5A253687320019A7D7 /* thai_new_creation_evangelism_paper_demoTests */,
+				8944BD65253687320019A7D7 /* thai_new_creation_evangelism_paper_demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8944BD48253687300019A7D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8944BD55253687320019A7D7 /* Preview Assets.xcassets in Resources */,
+				8944BD52253687320019A7D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8944BD59253687320019A7D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8944BD64253687320019A7D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8944BD46253687300019A7D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8944BD50253687300019A7D7 /* ContentView.swift in Sources */,
+				8944BD4E253687300019A7D7 /* thai_new_creation_evangelism_paper_demoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8944BD57253687320019A7D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8944BD60253687320019A7D7 /* thai_new_creation_evangelism_paper_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8944BD62253687320019A7D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8944BD6B253687320019A7D7 /* thai_new_creation_evangelism_paper_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8944BD5D253687320019A7D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8944BD49253687300019A7D7 /* thai_new_creation_evangelism_paper_demo */;
+			targetProxy = 8944BD5C253687320019A7D7 /* PBXContainerItemProxy */;
+		};
+		8944BD68253687320019A7D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8944BD49253687300019A7D7 /* thai_new_creation_evangelism_paper_demo */;
+			targetProxy = 8944BD67253687320019A7D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8944BD6D253687320019A7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8944BD6E253687320019A7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8944BD70253687320019A7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"thai_new_creation_evangelism_paper_demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 2J3RVUPPU4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = thai_new_creation_evangelism_paper_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wonjaelee.thai-new-creation-evangelism-paper-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8944BD71253687320019A7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"thai_new_creation_evangelism_paper_demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 2J3RVUPPU4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = thai_new_creation_evangelism_paper_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wonjaelee.thai-new-creation-evangelism-paper-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8944BD73253687320019A7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2J3RVUPPU4;
+				INFOPLIST_FILE = thai_new_creation_evangelism_paper_demoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wonjaelee.thai-new-creation-evangelism-paper-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thai_new_creation_evangelism_paper_demo.app/thai_new_creation_evangelism_paper_demo";
+			};
+			name = Debug;
+		};
+		8944BD74253687320019A7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2J3RVUPPU4;
+				INFOPLIST_FILE = thai_new_creation_evangelism_paper_demoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wonjaelee.thai-new-creation-evangelism-paper-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thai_new_creation_evangelism_paper_demo.app/thai_new_creation_evangelism_paper_demo";
+			};
+			name = Release;
+		};
+		8944BD76253687320019A7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2J3RVUPPU4;
+				INFOPLIST_FILE = thai_new_creation_evangelism_paper_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wonjaelee.thai-new-creation-evangelism-paper-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = thai_new_creation_evangelism_paper_demo;
+			};
+			name = Debug;
+		};
+		8944BD77253687320019A7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2J3RVUPPU4;
+				INFOPLIST_FILE = thai_new_creation_evangelism_paper_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wonjaelee.thai-new-creation-evangelism-paper-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = thai_new_creation_evangelism_paper_demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8944BD45253687300019A7D7 /* Build configuration list for PBXProject "thai_new_creation_evangelism_paper_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8944BD6D253687320019A7D7 /* Debug */,
+				8944BD6E253687320019A7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8944BD6F253687320019A7D7 /* Build configuration list for PBXNativeTarget "thai_new_creation_evangelism_paper_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8944BD70253687320019A7D7 /* Debug */,
+				8944BD71253687320019A7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8944BD72253687320019A7D7 /* Build configuration list for PBXNativeTarget "thai_new_creation_evangelism_paper_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8944BD73253687320019A7D7 /* Debug */,
+				8944BD74253687320019A7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8944BD75253687320019A7D7 /* Build configuration list for PBXNativeTarget "thai_new_creation_evangelism_paper_demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8944BD76253687320019A7D7 /* Debug */,
+				8944BD77253687320019A7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8944BD42253687300019A7D7 /* Project object */;
+}
