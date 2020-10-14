@@ -11,7 +11,7 @@ import SwiftUI
 struct thai_new_creation_evangelism_paper_demoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            loading_view().environmentObject(Env_object())
         }
     }
 }

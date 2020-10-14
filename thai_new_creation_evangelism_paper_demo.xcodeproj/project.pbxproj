@@ -8,11 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		8944BD4E253687300019A7D7 /* thai_new_creation_evangelism_paper_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8944BD4D253687300019A7D7 /* thai_new_creation_evangelism_paper_demoApp.swift */; };
-		8944BD50253687300019A7D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8944BD4F253687300019A7D7 /* ContentView.swift */; };
 		8944BD52253687320019A7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8944BD51253687320019A7D7 /* Assets.xcassets */; };
 		8944BD55253687320019A7D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8944BD54253687320019A7D7 /* Preview Assets.xcassets */; };
 		8944BD60253687320019A7D7 /* thai_new_creation_evangelism_paper_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8944BD5F253687320019A7D7 /* thai_new_creation_evangelism_paper_demoTests.swift */; };
 		8944BD6B253687320019A7D7 /* thai_new_creation_evangelism_paper_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8944BD6A253687320019A7D7 /* thai_new_creation_evangelism_paper_demoUITests.swift */; };
+		895834BD25368DF300A3A907 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895834BB25368DF300A3A907 /* Page.swift */; };
+		895834BE25368DF300A3A907 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895834BA25368DF300A3A907 /* Model.swift */; };
+		895834D12536919300A3A907 /* pageData.json in Resources */ = {isa = PBXBuildFile; fileRef = 895834D02536919300A3A907 /* pageData.json */; };
+		8994918E2536882F005F1F03 /* first_side_bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899491832536882F005F1F03 /* first_side_bar.swift */; };
+		8994918F2536882F005F1F03 /* loading_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899491842536882F005F1F03 /* loading_view.swift */; };
+		899491922536882F005F1F03 /* main_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899491872536882F005F1F03 /* main_view.swift */; };
+		899491932536882F005F1F03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899491882536882F005F1F03 /* ContentView.swift */; };
+		899491952536882F005F1F03 /* side_row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8994918A2536882F005F1F03 /* side_row.swift */; };
+		899491962536882F005F1F03 /* arrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8994918B2536882F005F1F03 /* arrows.swift */; };
+		899491972536882F005F1F03 /* side_bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8994918C2536882F005F1F03 /* side_bar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +44,6 @@
 /* Begin PBXFileReference section */
 		8944BD4A253687300019A7D7 /* thai_new_creation_evangelism_paper_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thai_new_creation_evangelism_paper_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8944BD4D253687300019A7D7 /* thai_new_creation_evangelism_paper_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thai_new_creation_evangelism_paper_demoApp.swift; sourceTree = "<group>"; };
-		8944BD4F253687300019A7D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8944BD51253687320019A7D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8944BD54253687320019A7D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8944BD56253687320019A7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +53,16 @@
 		8944BD66253687320019A7D7 /* thai_new_creation_evangelism_paper_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thai_new_creation_evangelism_paper_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8944BD6A253687320019A7D7 /* thai_new_creation_evangelism_paper_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thai_new_creation_evangelism_paper_demoUITests.swift; sourceTree = "<group>"; };
 		8944BD6C253687320019A7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895834BA25368DF300A3A907 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		895834BB25368DF300A3A907 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		895834D02536919300A3A907 /* pageData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pageData.json; sourceTree = "<group>"; };
+		899491832536882F005F1F03 /* first_side_bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = first_side_bar.swift; sourceTree = "<group>"; };
+		899491842536882F005F1F03 /* loading_view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loading_view.swift; sourceTree = "<group>"; };
+		899491872536882F005F1F03 /* main_view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main_view.swift; sourceTree = "<group>"; };
+		899491882536882F005F1F03 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../REsource/new_creation_evangelism_paper/ContentView.swift; sourceTree = "<group>"; };
+		8994918A2536882F005F1F03 /* side_row.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = side_row.swift; sourceTree = "<group>"; };
+		8994918B2536882F005F1F03 /* arrows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = arrows.swift; sourceTree = "<group>"; };
+		8994918C2536882F005F1F03 /* side_bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = side_bar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +113,18 @@
 		8944BD4C253687300019A7D7 /* thai_new_creation_evangelism_paper_demo */ = {
 			isa = PBXGroup;
 			children = (
+				895834C525368E9200A3A907 /* Resources */,
+				895834BA25368DF300A3A907 /* Model.swift */,
+				895834D02536919300A3A907 /* pageData.json */,
+				895834BB25368DF300A3A907 /* Page.swift */,
 				8944BD4D253687300019A7D7 /* thai_new_creation_evangelism_paper_demoApp.swift */,
-				8944BD4F253687300019A7D7 /* ContentView.swift */,
+				8994918B2536882F005F1F03 /* arrows.swift */,
+				899491882536882F005F1F03 /* ContentView.swift */,
+				899491832536882F005F1F03 /* first_side_bar.swift */,
+				899491842536882F005F1F03 /* loading_view.swift */,
+				899491872536882F005F1F03 /* main_view.swift */,
+				8994918C2536882F005F1F03 /* side_bar.swift */,
+				8994918A2536882F005F1F03 /* side_row.swift */,
 				8944BD51253687320019A7D7 /* Assets.xcassets */,
 				8944BD56253687320019A7D7 /* Info.plist */,
 				8944BD53253687320019A7D7 /* Preview Content */,
@@ -128,6 +156,13 @@
 				8944BD6C253687320019A7D7 /* Info.plist */,
 			);
 			path = thai_new_creation_evangelism_paper_demoUITests;
+			sourceTree = "<group>";
+		};
+		895834C525368E9200A3A907 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8944BD55253687320019A7D7 /* Preview Assets.xcassets in Resources */,
+				895834D12536919300A3A907 /* pageData.json in Resources */,
 				8944BD52253687320019A7D7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +295,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8944BD50253687300019A7D7 /* ContentView.swift in Sources */,
+				899491952536882F005F1F03 /* side_row.swift in Sources */,
+				8994918F2536882F005F1F03 /* loading_view.swift in Sources */,
+				899491932536882F005F1F03 /* ContentView.swift in Sources */,
+				899491922536882F005F1F03 /* main_view.swift in Sources */,
+				899491962536882F005F1F03 /* arrows.swift in Sources */,
+				895834BE25368DF300A3A907 /* Model.swift in Sources */,
+				895834BD25368DF300A3A907 /* Page.swift in Sources */,
 				8944BD4E253687300019A7D7 /* thai_new_creation_evangelism_paper_demoApp.swift in Sources */,
+				8994918E2536882F005F1F03 /* first_side_bar.swift in Sources */,
+				899491972536882F005F1F03 /* side_bar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
