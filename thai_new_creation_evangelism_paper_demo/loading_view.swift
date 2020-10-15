@@ -19,7 +19,7 @@ struct loading_view: View {
                     Image("background1")
                         .resizable()
                         .edgesIgnoringSafeArea(.all)
-                    Image("n00")
+                    Image("ThaiNC00")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                 }

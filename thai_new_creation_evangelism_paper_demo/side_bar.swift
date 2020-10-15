@@ -59,7 +59,7 @@ struct side_bar: View {
                     }
                 })
                 
-                Section(header : Text("부록: 사도 바울의 기도"), content: {
+                Section(header : Text("บทเสริม : คำอธิษฐานของเปาโล"), content: {
                     ForEach(five, id: \.id) { page in
                         side_row(page: page)
                     }

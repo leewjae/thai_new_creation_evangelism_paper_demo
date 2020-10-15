@@ -29,12 +29,11 @@ struct main_view: View {
                                 }
                             }
                         }
-                    if env_object.is_first_launch {
-//                        side_bar()
-                        first_side_bar()
-                    }
+//                    if env_object.is_first_launch {
+//                        first_side_bar()
+//                    }
 
-                    else if env_object.show_side_bar {
+                     if env_object.show_side_bar {
                             side_bar()
                                 .frame(width: geometry.size.width/2.02, height: geometry.size.height)
 //                                .transition(.move(edge: .leading))
