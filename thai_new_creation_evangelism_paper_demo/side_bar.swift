@@ -64,6 +64,57 @@ struct side_bar: View {
                         side_row(page: page)
                     }
                 })
+                
+                Section(header : Text("ทูตของพระคริสต์ โอซาน"), content: {
+                    //그대들오산
+                    Group {
+                        HStack {
+                            Image("afc3")
+                                .resizable()
+                                .cornerRadius(10.0)
+                                .frame(width: 35, height: 35)
+                            Link(destination: URL(string: "http://athai.tv/")!) {
+                                Text("หน้าเว็บ")
+                                    .bold()
+                                //웹페이지
+                            }
+                        }
+                        
+                        HStack {
+                            Image("afc3")
+                                .resizable()
+                                .cornerRadius(10.0)
+                                .frame(width: 35, height: 35)
+                            Link(destination: URL(string: "https://www.facebook.com/CeOsan/")!) {
+                                Text("เฟสบุ๊ค")
+                                    .bold()
+                            }
+                        }
+                        
+                        HStack {
+                            Image("afc3")
+                                .resizable()
+                                .cornerRadius(10.0)
+                                .frame(width: 35, height: 35)
+                            Link(destination: URL(string: "https://www.instagram.com/afc_osan/?fbclid=IwAR1eSq-XJveJzcrzl8fexR0m6HZ58vQkNloQf4zU4SskqzFGhhCbhrnRWfo")!) {
+                                Text("อินสตาแกรม")
+                                    .bold()
+                            }
+                        }
+                        
+                        HStack {
+                            Image("afc3")
+                                .resizable()
+                                .cornerRadius(10.0)
+                                .frame(width: 35, height: 35)
+                            Link(destination: URL(string: "https://www.youtube.com/c/ChristEmbassyThai?fbclid=IwAR1NVa7Ddb7JveJh0S3X0LZkLGR89VqK9SIFZqXXdJrGjnglHVJ-cO2Yv-k")!) {
+                                Text("YouTube")
+                                    .bold()
+                            }
+                        }
+                    }
+                    
+                })
             }
         }
         .edgesIgnoringSafeArea(.all)

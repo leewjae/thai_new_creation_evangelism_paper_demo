@@ -14,6 +14,7 @@ struct side_row: View {
     
     var body: some View {
         Button(action: {
+            print("clicked!")
             env_object.index = page.id
             env_object.show_side_bar.toggle()
             env_object.changed.toggle()

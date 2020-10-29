@@ -25,7 +25,7 @@ struct loading_view: View {
                 }
             } else {
                 withAnimation {
-                    main_view()
+                   main_view()
                 }
             }
         }

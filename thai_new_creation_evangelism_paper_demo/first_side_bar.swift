@@ -13,7 +13,6 @@ struct first_side_bar: View {
     // section = 0 represents it is neither.
     @EnvironmentObject var env_object: Env_object
     @State private var is_expanded: [Bool] = [false, false, false, false]
-    let message = "펼치기"
 
 //    init() {
 //        UITableView.appearance().tableHeaderView = UIView(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
@@ -35,7 +34,7 @@ struct first_side_bar: View {
                             .resizable()
                             .cornerRadius(10.0)
                             .frame(width: 45, height: 45)
-                        Text("새로운 피조물 전도지")
+                        Text("คนที่ถูกสร้างใหม่")
                             .bold()
                             .font(.system(size: 20))
                     }
@@ -46,7 +45,7 @@ struct first_side_bar: View {
                         side_row(page: page)
                     }
                 } label: {
-                    Text("1과 복음이란 무엇인가" + index_spacing)
+                    Text("บทที่ 1: ข่าวประเสริฐ คือ อะไร" + index_spacing)
                         .font(.headline)
                         .contentShape(Rectangle())
                         .onTapGesture {
@@ -61,7 +60,7 @@ struct first_side_bar: View {
                         side_row(page: page)
                     }
                 } label: {
-                    Text("2과 그리스도인은 누구인가?" + index_spacing)
+                    Text("บทที่ 2: คริสเตียนเป็นใคร" + index_spacing)
                         .font(.headline)
                         .contentShape(Rectangle())
                         .onTapGesture {
@@ -76,7 +75,7 @@ struct first_side_bar: View {
                         side_row(page: page)
                     }
                 } label: {
-                    Text("3과 그리스도인은 어떻게 사는가?" + index_spacing)
+                    Text("บทที่ 3: คริสเตียนใช้ชีวิตอย่างไง" + index_spacing)
                         .font(.headline)
                         .contentShape(Rectangle())
                         .onTapGesture {
@@ -91,7 +90,7 @@ struct first_side_bar: View {
                         side_row(page: page)
                     }
                 } label: {
-                    Text("부록: 사도 바울의 기도" + index_spacing)
+                    Text(("บทเสริม : คำอธิษฐานของเปาโล") + index_spacing)
                         .font(.headline)
                         .contentShape(Rectangle())
                         .onTapGesture {
@@ -101,39 +100,50 @@ struct first_side_bar: View {
                         }
                 }
 
-                HStack {
-                    Image("faithbook")
-                        .resizable()
-                        .cornerRadius(10.0)
-                        .frame(width: 35, height: 35)
-
-                    Link(destination: URL(string: "http://faithbook.kr/")!) {
-                        Text("믿음의 말씀사 바로가기")
-                            .bold()
-                            .font(.headline)
+                Group {
+                    HStack {
+                        Image("afc3")
+                            .resizable()
+                            .cornerRadius(10.0)
+                            .frame(width: 35, height: 35)
+                        Link(destination: URL(string: "http://athai.tv/")!) {
+                            Text("หน้าเว็บ")
+                                .bold()
+                            //웹페이지
+                        }
                     }
-                }
-
-                HStack {
-                    Image("new_creation")
-                        .resizable()
-                        .cornerRadius(10.0)
-                        .frame(width: 35, height: 35)
-                    Link(destination: URL(string: "https://apps.apple.com/kr/app/%EC%83%88%EB%A1%9C%EC%9A%B4-%ED%94%BC%EC%A1%B0%EB%AC%BC-%EA%B3%A0%EB%B0%B1%EA%B8%B0%EB%8F%84%EC%A7%91/id515825238")!) {
-                        Text("새로운 피조물의 고백기도집")
-                            .bold()
-                            .font(.headline)
+                    
+                    HStack {
+                        Image("afc3")
+                            .resizable()
+                            .cornerRadius(10.0)
+                            .frame(width: 35, height: 35)
+                        Link(destination: URL(string: "https://www.facebook.com/CeOsan/")!) {
+                            Text("เฟสบุ๊ค")
+                                .bold()
+                        }
                     }
-                }
-
-                HStack {
-                    Image("suggestion")
-                        .resizable()
-                        .frame(width: 35, height: 35)
-                    Link(destination: URL(string: "https://open.kakao.com/o/siHQNXyc" )!) {
-                        Text("개발자에게 제안하기")
-                            .bold()
-                            .font(.headline)
+                    
+                    HStack {
+                        Image("afc3")
+                            .resizable()
+                            .cornerRadius(10.0)
+                            .frame(width: 35, height: 35)
+                        Link(destination: URL(string: "https://www.instagram.com/afc_osan/?fbclid=IwAR1eSq-XJveJzcrzl8fexR0m6HZ58vQkNloQf4zU4SskqzFGhhCbhrnRWfo")!) {
+                            Text("อินสตาแกรม")
+                                .bold()
+                        }
+                    }
+                    
+                    HStack {
+                        Image("afc3")
+                            .resizable()
+                            .cornerRadius(10.0)
+                            .frame(width: 35, height: 35)
+                        Link(destination: URL(string: "https://www.youtube.com/c/ChristEmbassyThai?fbclid=IwAR1NVa7Ddb7JveJh0S3X0LZkLGR89VqK9SIFZqXXdJrGjnglHVJ-cO2Yv-k")!) {
+                            Text("YouTube")
+                                .bold()
+                        }
                     }
                 }
             }

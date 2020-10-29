@@ -63,14 +63,14 @@ class Env_object: ObservableObject {
     @Published var motion = "right"
     @Published var is_first_launch = true
     @Published var is_paul_prayer = false
-//
-//    @Published var show_first_menu = false
-//    @Published var show_second_menu = false
-//    @Published var show_third_menu = false
-//    @Published var show_fourth_menu = false
-//    @Published var show_fifth_menu = false
-//
-//
+
+    @Published var show_first_menu = false
+    @Published var show_second_menu = false
+    @Published var show_third_menu = false
+    @Published var show_fourth_menu = false
+    @Published var show_fifth_menu = false
+
+
 }
 
 func load<T: Decodable>(_ filename: String) -> T {
